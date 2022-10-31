@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: #021823FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+}
+
+.box h1{
+    animation: najot 2s linear 1s 1;
+}
+
+.box img{
+    animation: najot 2s linear 1s 1;
+}
+
+@keyframes najot {
+    0%{
+        transform: translateY(-200px) rotateX(-90deg);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    /* 100%{
+        transform: translateY(200px) rotateX(90deg);
+        opacity: 0;
+    } */
+    
+}
